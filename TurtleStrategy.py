@@ -116,5 +116,3 @@ if __name__ == '__main__':
     cerebro.run()
     print('最终净值: $%.2f' % cerebro.broker.getvalue())
     cerebro.plot(style='candlestick',bardown = 'green', barup = 'red')
-
-    ###
